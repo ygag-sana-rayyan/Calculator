@@ -1,0 +1,83 @@
+ h1 {
+ text-align: center;
+ }
+
+ .container{
+ width:460px;
+ height:540px;
+ background-color:black;
+ margin:auto;
+ border-radius:20px;
+ padding:10px
+ }
+
+
+ p{
+ color:white;
+ font-size:40px;
+ font-family:veranda;
+ margin-left:10px;
+ }
+
+ #screen{
+  background-color:powderblue;
+  height:50px;
+  width;440px;
+  margin:5px;
+  text-align:right;
+  font-size:2.5rem;
+  border-radius:10px;
+ }
+
+ .button{
+ background-color:grey;
+ height:70px;
+ width:92px;
+ font-size:2.5rem;
+ margin:10px;
+ border-radius:10px;
+ }
+
+ .clear{
+ background-color:Tomato;
+ }
+
+ .operator{
+ background-color:LightSteelBlue;
+ }
+
+ .button:hover{
+ border:5px solid yellow;
+ }
+
+ .number1{
+ background-color:Orchid;
+ }
+
+ .number2{
+ background-color:OrangeRed;
+ }
+ .number3{
+ background-color:purple;
+ }
+ .number4{
+ background-color:DeepPink;
+ }
+ .number5{
+ background-color:Aquamarine;
+ }
+ .number6{
+ background-color:IndianRed;
+ }
+ .number7{
+ background-color:Indigo
+ }
+ .number8{
+ background-color:Khaki
+ }
+ .number9{
+ background-color:DarkSlateGrey;
+ }
+ .number10{
+ background-color: Aqua
+ }

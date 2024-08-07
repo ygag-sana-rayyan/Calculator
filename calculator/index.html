@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Calculator</h1>
+
+<div class="container">
+    <form action="">
+        <p>Casio</p>
+        <input type="text" id="screen">
+        <br>
+        <input class="button number1" type="button" value="7" onclick="btnClick(value)">
+        <input class="button number2" type="button" value="8" onclick="btnClick(value)">
+        <input class="button number3" type="button" value="9" onclick="btnClick(value)">
+        <input class="button operator" type="button" value="/" onclick="btnClick(value)">
+
+        <br>
+        <input class="button number4" type="button" value="4" onclick="btnClick(value)">
+        <input class="button number5" type="button" value="5" onclick="btnClick(value)">
+        <input class="button number6" type="button" value="6" onclick="btnClick(value)">
+        <input class="button operator" type="button" value="*" onclick="btnClick(value)">
+
+        <br>
+        <input class="button number7" type="button" value="1" onclick="btnClick(value)">
+        <input class="button number8" type="button" value="2" onclick="btnClick(value)">
+        <input class="button number9" type="button" value="3" onclick="btnClick(value)">
+        <input class="button operator" type="button" value="+" onclick="btnClick(value)">
+
+        <br>
+        <input class="button clear" type="button" value="C" onclick="clearScreen()">
+        <input class="button number10" type="button" value="0" onclick="btnClick(value)">
+        <input class="button result" type="button" value=" = " onclick="findResult()">
+        <input class="button operator" type="button" value="-" onclick="btnClick(value)">
+    </form>
+</div>
+
+<script src="./calc.js"></script>
+</body>
+</html>
